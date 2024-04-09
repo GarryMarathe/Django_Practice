@@ -1,1 +1,1 @@
-
+Django is a high-level Python web framework that enables rapid development of secure and maintainable websites and web applications. It follows the "Don't Repeat Yourself" (DRY) principle, emphasizing reusability and efficiency. Django provides built-in features for handling tasks such as URL routing, database modeling, authentication, and templating, making it popular among developers for its simplicity and scalability.

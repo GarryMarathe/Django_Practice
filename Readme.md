@@ -35,3 +35,10 @@ Configure URLs: Define URL patterns in Django to map to views that will render t
 - Testing Framework: Django includes a robust testing framework that allows you to write unit tests, integration tests, and functional tests for your applications. It provides tools for setting up test databases, client requests, and assertions, making it easy to ensure the reliability and correctness of your code.
 
 - RESTful APIs: While Django is primarily designed for building traditional web applications, it also includes features for building RESTful APIs. The Django REST framework is a powerful toolkit for building Web APIs, providing serializers, viewsets, authentication, permissions, and more to streamline the development of API endpoints.
+- 
+
+Create Templates: Design HTML templates using Django's template language. These templates can include dynamic content rendered from Django views and models.
+
+Pass Data to Templates: In your Django views, pass any necessary data to the templates using the render() function or context dictionary.
+
+Serve Static Files: Configure Django to serve static files (CSS, JavaScript, images) by setting up the STATIC_URL and STATIC_ROOT settings in your settings.py file. You may also need to use the collectstatic management command to collect static files into one directory.
